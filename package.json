@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "grunt",
-    "start": "http-server ./docs/ && echo \"Open http://localhost:8080/demo.html in a browser.\"",
+    "start": "http-server ./docs/ -p 3000 && echo \"Open http://localhost:3000/demo.html in a browser.\"",
     "prepublish": "npm run-script build"
   },
   "keywords": [
